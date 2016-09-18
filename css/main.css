@@ -1,0 +1,188 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #fff;
+}
+
+button{
+	height:50px;
+	width:150px;
+}
+
+a{
+	cursor:pointer;
+}
+
+#limit{
+	 text-align:center;
+	 font-size: 250%;
+	 display:none;
+}
+
+.container-fluid{
+	padding:3%;
+	text-align:center;
+}
+
+.container{
+	border-radius:15px;
+	text-align:center;
+	border:1px solid #867979;
+	padding:0%;
+	margin:5%;
+	background-color:#f0f2f2;
+}
+
+.row{
+	margin:0%;
+	overflow: hidden; 
+}
+
+.img-div{
+	padding:0%;
+}
+
+.img{
+	border:1px solid #867979;
+	border-top-left-radius:12px;
+	border-bottom-left-radius:12px;
+}
+
+.gray{
+	background-color:#e3e3e3;
+	font-weight: bold;
+	border:1px solid #867979;
+}
+
+.center-sign{
+	font-size: 250%;
+	color:#e3e3e3;
+	text-align:center;
+	padding-top:3%;
+}
+
+.center-span {
+   display:block;
+   width:50px;
+   height: 100%;
+   margin: 0 auto;
+}
+
+.reviews{
+	display:none;
+	background-color: #b3b5b5;
+	padding:0%;
+	border-radius:0px 0px 13px 13px;
+}
+
+.cap-0{
+    text-transform:capitalize;
+	font-size:150%;
+}
+
+.cap-1{
+    font-size:250%;
+}
+
+
+.cap-2{
+	font-size:250%;
+	color:#5f6061;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.padding-div{
+	padding:3%;
+}
+
+.button-div{
+	padding:3%;
+}
+
+.comment-div{
+	padding:3% 3% 10% 3%;
+}
+
+.error{
+	background-color: #b3b5b5;
+	line-height:4em;
+	border-radius:13px;
+}
+
+@media only screen and (max-width: 1200px){
+	.container-fluid{
+		padding:0%;
+	}
+	
+	.row{
+		padding:0%;
+	}
+	
+	.btn{
+		margin-top:3%
+	}
+}
+
+ @media only screen and (max-width : 992px) {
+	.img{
+		border-top-left-radius:12px;
+		border-bottom-left-radius:0px;
+		border:none;
+	}
+	
+	.comment-div{
+		padding:3%;
+	}
+	
+	.cap-0{
+		font-size:120%;
+	}
+	
+	.cap-1{
+		font-size:200%;
+	}
+		
+	.cap-2{
+		font-size:200%;
+	}
+	
+	.padding-div{
+		padding:1%;
+	}
+	
+	button{
+		height:35px;
+		width:120px;
+	}
+}
+
+ @media only screen and (min-width : 768px) and (max-width : 992px) {
+	.center{
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	
+	.container{
+		margin:0%;
+		border:none;
+		background-color:#fff;
+	}
+	
+	.img{
+		border-radius:0px;
+	}
+	
+	.row{
+		padding:3%;
+	}
+}
